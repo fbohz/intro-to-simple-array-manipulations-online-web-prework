@@ -28,11 +28,11 @@ def using_concat(arr1, arr2)
 end
 
 def using_insert(arr, elem)
-
+ arr.insert(elem)
 end
 
-def using_uniq
- 
+def using_uniq(arr)
+ arr.uniq
 end
 
 def using_flatten
